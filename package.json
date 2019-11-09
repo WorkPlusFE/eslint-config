@@ -1,0 +1,33 @@
+{
+  "name": "@w6s/eslint-config",
+  "version": "1.0.0",
+  "description": "WorkPlus FE eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorkPlusFE/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "WorkPlusFE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WorkPlusFE/eslint-config/issues"
+  },
+  "homepage": "https://github.com/WorkPlusFE/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
