@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "WorkPlus FE eslint config",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WorkPlusFE/eslint-config.git"
