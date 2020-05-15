@@ -1,14 +1,13 @@
 module.exports = {
-    extends: ['airbnb-base', 'plugin:vue/recommended'],
+    extends: [
+      'plugin:vue/essential',
+      '@vue/airbnb',
+      '@vue/typescript/recommended',
+    ],
   
     parserOptions: {
-      parser: '@typescript-eslint/parser',
-      ecmaVersion: 2018,
-      sourceType: 'module',
-      extraFileExtensions: ['.vue']
+      ecmaVersion: 2020,
     },
-  
-    plugins: ['@typescript-eslint'],
   
     env: {
       es6: true,
@@ -63,7 +62,17 @@ module.exports = {
       'vue/name-property-casing': ['error', 'kebab-case'],
       'vue/component-name-in-template-casing': ['error', 'kebab-case'],
       'vue/html-closing-bracket-newline': 2,
-      '@typescript-eslint/no-unused-vars': ['error']
+      '@typescript-eslint/no-unused-vars': ['error'],
+      'import/extensions': [
+        'error',
+        'ignorePackages',
+        {
+          'js': 'never',
+          'jsx': 'never',
+          'ts': 'never',
+          'tsx': 'never'
+        }
+     ]
     }
   };
   
