@@ -3,6 +3,9 @@ module.exports = {
     'plugin:vue/essential',
     '@vue/airbnb',
     '@vue/typescript/recommended',
+
+    '@vue/prettier',
+    '@vue/prettier/@typescript-eslint',
   ],
 
   parserOptions: {
@@ -36,7 +39,7 @@ module.exports = {
   rules: {
     'no-new': 0,
     'no-shadow': 0,
-    camelcase: 1,
+    'camelcase': 1,
     'no-bitwise': 0,
     'func-names': 0,
     'no-console': 0,
@@ -84,6 +87,7 @@ module.exports = {
       }
    ],
    '@typescript-eslint/no-var-requires': 0,
-   '@typescript-eslint/no-unused-vars': ['error']
+   '@typescript-eslint/no-unused-vars': ['error'],
+   '@typescript-eslint/no-explicit-any': 0
   }
 };
