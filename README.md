@@ -4,10 +4,10 @@
 
 ```bash
 // npm
-npm i @w6s/eslint-config -D
+npm i eslint prettier @w6s/eslint-config -D
 
 // yarn
-yarn add @w6s/eslint-config --dev
+yarn add eslint prettier @w6s/eslint-config --dev
 ```
 
 ### Usage
@@ -17,4 +17,3 @@ yarn add @w6s/eslint-config --dev
   "extends": ["@w6s"]
 }
 ```
-
