@@ -1,6 +1,6 @@
 {
   "name": "@w6s/eslint-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "WorkPlus FE eslint config",
   "main": "index.js",
   "publishConfig": {
@@ -30,6 +30,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^7.5.0"
   },
   "engines": {

@@ -1,11 +1,19 @@
 module.exports = {
   extends: [
-    'airbnb-base',
     'plugin:vue/vue3-recommended',
+    'airbnb-base',
     'plugin:@typescript-eslint/recommended',
-    'prettier/vue',
-    'prettier/@typescript-eslint',
+    'plugin:prettier/vue',
+    'plugin:prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
   ],
+
+  globals: {
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    withDefaults: 'readonly'
+  },
 
   env: {
     es6: true,
@@ -42,5 +50,6 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-var-requires': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
 };
