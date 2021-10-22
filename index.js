@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'airbnb-base',
-    'plugin:vue/essential',
+    'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier/vue',
     'prettier/@typescript-eslint',
@@ -15,10 +15,14 @@ module.exports = {
 
   parser: 'vue-eslint-parser',
 
+  // https://cn.eslint.org/docs/user-guide/configuring#specifying-parser-options
   parserOptions: {
     ecmaVersion: 12,
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
 
   rules: {

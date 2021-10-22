@@ -1,6 +1,6 @@
 {
   "name": "@w6s/eslint-config",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "WorkPlus FE eslint config",
   "main": "index.js",
   "publishConfig": {
@@ -31,5 +31,8 @@
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-vue": "^7.5.0"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }

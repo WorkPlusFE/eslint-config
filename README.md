@@ -1,5 +1,7 @@
 # Eslint Config of WorkPlusFE
 
+> 2.0 only supports vue3. If it is vue2, please use version 1.x
+
 ### Install
 
 ```bash
