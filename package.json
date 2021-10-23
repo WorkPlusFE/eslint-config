@@ -1,6 +1,6 @@
 {
   "name": "@w6s/eslint-config",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "WorkPlus FE eslint config",
   "main": "index.js",
   "publishConfig": {
