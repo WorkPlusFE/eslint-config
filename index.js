@@ -3,8 +3,6 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/vue',
-    'plugin:prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
 
